@@ -1,6 +1,8 @@
 function [ RX,RY ] = MisDM_vb( X,Y,U )
 % A variable missing data mechanism model used for model (iv) in the paper.
 
+% Author: Ruoxu Tan; date: 2022/Nov/29; Matlab version: R2020a.
+
 n = length(X);
 RX = zeros(n,1);
 RY = RX;

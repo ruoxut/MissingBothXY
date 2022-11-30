@@ -2,6 +2,8 @@ function [ RX,RY ] = MisDM( X,Y,U )
 % A stable/linear missing data mechanism model used for models (i), (ii) and (iii)
 % in the paper.
 
+% Author: Ruoxu Tan; date: 2022/Nov/29; Matlab version: R2020a.
+
 n = length(X);
 RX = zeros(n,1);
 RY = RX;

@@ -7,6 +7,8 @@ function [ a_hat ] = LogEE_M( X,Y )
 % Outupt: 
 % a_hat: 1*(p+1) estimated coefficients.
 
+% Author: Ruoxu Tan; date: 2022/Nov/29; Matlab version: R2020a.
+
 EEsol = @(a) [sum(Y.*(1+exp(g_M(a,X)))-1), sum((Y.*(1+exp(g_M(a,X)))-1).*X.^2)];
 opt = optimset('Display','off');
 a_ini = zeros(1,size(X,2)+1);

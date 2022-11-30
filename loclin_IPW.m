@@ -13,6 +13,8 @@ function [ t,f ] = loclin_IPW( a,b,X,Y,RX,RY,U,alpha )
 % t: 200*1 the vector where to evaluate the regression estimator;
 % f: 200*1 estimated regression values.
 
+% Author: Ruoxu Tan; date: 2022/Nov/29; Matlab version: R2020a.
+
 if isrow(X)
     X = X';
 end

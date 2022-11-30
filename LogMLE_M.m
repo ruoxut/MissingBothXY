@@ -7,6 +7,8 @@ function [ a_hat ] = LogMLE_M( X,Y )
 % Outupt: 
 % a_hat: 1*(p+1) estimated coefficients.
 
+% Author: Ruoxu Tan; date: 2022/Nov/29; Matlab version: R2020a.
+
 nelogL = @(a) sum(-(1-Y).*g_M(a,X)+log(1+exp(g_M(a,X))));
 opt = optimset('Display','off');
 a_ini = zeros(1,size(X,2)+1);
