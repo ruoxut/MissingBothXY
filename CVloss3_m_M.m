@@ -2,6 +2,8 @@ function [ S ] = CVloss3_m_M( h,X,Y,U,alpha,a,b )
 % Cross-validation loss function of the local cubic estimator for the second derivative
 % using the quadratic g_{r^x,r^y}'s.
 
+% Author: Ruoxu Tan; date: 2022/Nov/29; Matlab version: R2020a.
+
 S = 0;
 
 for i = 1:length(X)

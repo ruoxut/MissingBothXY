@@ -10,6 +10,8 @@ function [ t,f1,f2 ] = loclin( X,Y,a,b )
 % f1: the vector of estimated E(Y|X=x);
 % f2: the vector of estimated E'(Y|X=x).
 
+% Author: Ruoxu Tan; date: 2022/Nov/29; Matlab version: R2020a.
+
 if nargin < 3
     a = quantile(X,0.025);
     b = quantile(X,0.975);

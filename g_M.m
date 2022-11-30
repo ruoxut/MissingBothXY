@@ -4,7 +4,9 @@ function [res] = g_M(a,X)
 % a: 1*(p+1) coefficient vector (a_0,...,a_{p});
 % X: n*p arguments.
 % Output:
-% res: n*1 values of a_0 + X^2*(a_1,...,a_{p})^T.
+% res: n*1 values a_0 + X^2*(a_1,...,a_{p})^T.
+
+% Author: Ruoxu Tan; date: 2022/Nov/29; Matlab version: R2020a.
 
 if iscolumn(a)
     a = a';

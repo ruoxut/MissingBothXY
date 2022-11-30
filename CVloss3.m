@@ -1,6 +1,8 @@
 function [ S ] = CVloss3( X,Y,h,a,b )
 % Cross-validation loss function of the local cubic estimator for the second derivative.
 
+% Author: Ruoxu Tan; date: 2022/Nov/29; Matlab version: R2020a.
+
 S = 0;
 
 for i = 1:length(X)

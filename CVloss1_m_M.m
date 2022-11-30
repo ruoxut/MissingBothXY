@@ -1,6 +1,9 @@
 function [ S ] = CVloss1_m_M( h,X,Y,YY,U,alpha,a,b )
 % Cross-validation loss function for local linear estimator using the quadratic g_{r^x,r^y}'s.
 
+% Author: Ruoxu Tan; date: 2022/Nov/29; Matlab version: R2020a.
+
+
 S = 0;
 
 for i = 1:length(X)
