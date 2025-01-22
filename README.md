@@ -1,5 +1,5 @@
 # MissingBothXY
-Simulation code for Tan, R. (2022+). Nonparametric regression with nonignorable missing covariates and outcomes using bounded inverse weighting. Journal of Nonparametric Statistics.
+Simulation code for Tan, R. (2023). Nonparametric regression with nonignorable missing covariates and outcomes using bounded inverse weighting. Journal of Nonparametric Statistics, 35, 927-946.
 
 To reproduce the simulation, run Simulation.m and Simulation_M.m files. Un/comment the corresponding lines to select a particular simulation setting.
 
